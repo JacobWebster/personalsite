@@ -22,7 +22,7 @@ section.skills#skills
               ul.soft-list
                 |{% for software in site.data.skills.software %}
                 li.soft-item
-                  img.item-img(src="/assets/img/icons/{{software.item}}.png" alt="{{software.item}}")
+                  img.item-img(src="{{site.baseurl}}/assets/img/icons/{{software.item}}.png" alt="{{software.item}}")
                 |{% endfor %}
           
             .skills-column
