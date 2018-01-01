@@ -1,0 +1,38 @@
+|{% for port in site.data.portfolio %}
+section.modal(id="project{{port.modal-id}}" tabindex="-1" role="dialog" aria-hidden="true")
+  .section-wrapper
+    .close-modal(data-dismiss="modal")
+      span.line.top
+      span.line.bottom
+    
+    .center 
+      h1 {{ port.title }}
+      span.divider.center
+      
+      p.description {{ port.description }}
+      .btns
+        |{% if port.demo %}
+        a.main-btn.demo(href="{{ port.demo }}" target="_blank") Live Demo
+        |{% endif %}
+        
+        |{% if port.git %}
+        a.main-btn.git(href="{{ port.git }}" target="_blank") View on Github
+        |{% endif %}
+        
+        |{% if port.store %}
+        a.main-btn.store(href="{{ port.store }}" target="_blank") Buy Product
+        |{% endif %}
+        a.main-btn(data-dismiss="modal") Close
+        
+      h2 Languages, Frameworks, and Tools:
+      ul.used
+        |{% for item in port.used %}
+        li.used-item {{item.thing}}
+        |{% endfor %}
+        
+      .work
+        |{% for items in port.images %}
+        img(src="assets/img/portfolio/{{port.sprite}}/{{items.img}}" alt="{{port.title}} - {{items.img}}")
+        |{% endfor %}   
+        
+|{% endfor %}

@@ -1,0 +1,29 @@
+section.contact#contact
+  .overlay-wrapper
+    .fade-in
+      .center
+        h1 Get In Touch
+        span.divider.center
+        p.description Have a project in mind or just want to say hi? Feel free to send me a message!
+        
+      .contact-wrapper
+        form.form-wrapper#contactform(method="POST" autocomplete="off")
+          input(type="text" name="_gotcha" style="display:none")
+          .input-wrapper
+            label.input-label(for="name") Name
+            input.contact-input#name(type="text" name="name" required)
+              
+          .input-wrapper
+            label.input-label(for="email") Email
+            input.contact-input#email(type="text" name="_replyto" required)
+          
+          .input-wrapper
+            label.input-label(for="subject") Subject
+            input.contact-input#subject(type="text" name="_subject" required)
+          
+          .input-wrapper
+            label.input-label.message-label(for="message") Message
+            textarea.contact-input.autoExpand#message(type="text" name="message" required)
+          
+          button.main-btn(type="submit" name="submit")
+            span Send Message

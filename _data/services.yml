@@ -1,0 +1,19 @@
+- row: row1
+  services:
+    - heading: Web Development
+      sprite: webdev
+      text: Using HTML, CSS, C#, .Net, and JavaScript, I have developed pixel-perfect websites and apps while maintaining a semantic, modular, W3C web standards and clean code base.
+
+    - heading: Responsive Design
+      sprite: ui
+      text: <strong><em>"A user interface is like a joke. If you have to explain it, it's not that good."</em></strong> I strive to develop and implement responsive and aesthetically pleasing interfaces for websites and apps that adapt to any type of device, platform, or browser.
+
+- row: row2
+  services:
+    - heading: Graphic Design
+      sprite: xd
+      text: <strong><em>"A project starts with a great design in mind."</em></strong> Not only do I develop and implement a layout, I can also design it along with the branding materials. Including, web design, advertising, brand identity, and any misc print collateral.
+
+    - heading: Business Strategy
+      sprite: wit
+      text: Beyond coding, I am an expertise on understanding what my customers need.  I listen in depth to your necessities which then, I formulate the best strategy possible ...always going above and beyond.

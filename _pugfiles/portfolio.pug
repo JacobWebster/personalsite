@@ -1,0 +1,23 @@
+section.portfolio#portfolio
+  .section-wrapper
+    .fade-in
+      h1 Some of My Work
+      span.divider
+        
+      .portfolio-wrap
+        .portfolio-row
+          |{% for port in site.data.portfolio %}
+          .portfolio-item
+            a.portfolio-link(href="#project{{port.modal-id}}" data-toggle="modal")
+              .img-hover
+                img.portfolio-thumb(src="assets/img/portfolio/{{port.sprite}}/{{port.sprite}}.png" alt="{{port.title}}")
+              .hover-overlay
+                .content
+                  h2 {{port.title}}
+                  p {{ port.subtitle }}
+                  ul.used
+                    |{% for item in port.used %}
+                    li.used-item {{item.thing}}
+                    |{% endfor %}
+      
+          |{% endfor %}

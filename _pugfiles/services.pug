@@ -1,0 +1,16 @@
+section.services#services
+
+  .overlay-wrapper
+    .fade-in
+      h1 What I Do
+      span.divider
+      .services-wrapper
+        |{% for row in site.data.services %}
+        .service-row
+            |{% for service in row.services %}
+            .service-column
+              .sprite(class="{{service.sprite}}")
+              h2 {{service.heading}}
+              p {{service.text}}
+            |{% endfor %}
+        |{% endfor %}

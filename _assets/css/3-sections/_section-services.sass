@@ -1,0 +1,81 @@
+section.services
+  background: url('../img/bg-services/services-md.jpg')
+    size: cover
+
+  .services-wrapper
+    width: 100%
+    margin: 0 auto
+    padding: 0px
+    display: flex
+    @include MQ(ML)
+      padding: 0
+    @include MQ(S660)
+      display: block
+
+    .service-row
+      display: flex
+      flex-direction: column
+      &:nth-of-type(2)
+        border-left: 1px solid $offwhite
+        @include MQ(S660)
+            border-left: none
+
+      .service-column
+        padding: 20px
+        @include MQ(M)
+          padding: 20px 15px 9px 15px
+        @include MQ(S660)
+          padding: 15px
+
+        &:nth-of-type(1)
+          min-height: 47%
+          @include MQ(S660)
+            min-height: auto
+
+        &:nth-of-type(2)
+          border-top: 1px solid $offwhite
+          padding-bottom: 50px
+          @include MQ(S660)
+            border-top: none
+            padding-bottom: 9px
+
+        h2
+          @include MQ(M)
+            font-size: 2.5vw
+
+          @include MQ(S660)
+            font-size: 4vw
+          @include MQ(SM)
+            font-size: 5vw
+
+
+        .sprite
+          width: 40px
+          height: 40px
+          margin-right: 15px
+          display: inline-block
+          vertical-align: middle
+          position: relative
+          top: -3px
+          background-repeat: no-repeat
+          background-position: center center
+          background-size: 100%
+          @include MQ(M)
+            width: 35px
+            height: 35px
+
+          &.webdev
+            background-image: url('../img/icons/html.png')
+
+          &.ui
+            background-image: url('../img/icons/pencil.png')
+            background-size: 90%
+
+          &.xd
+            background-image: url('../img/icons/ux-design.png')
+
+          &.wit
+            background-image: url('../img/icons/internet.png')
+            background-size: 90%
+
+  

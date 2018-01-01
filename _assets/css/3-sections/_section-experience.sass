@@ -1,0 +1,264 @@
+section.experience
+  background: url('../img/bg-experience/experience-md.jpg')
+    size: cover
+
+  .experience-wrapper
+    padding: 30px
+    @include MQ(ML)
+      padding-left: 0
+
+    @include MQ(S600)
+      padding: 30px 15px
+
+    .timeline
+      position: relative
+      padding: 2em 0
+      margin: 0 auto
+      width: 100%
+      max-width: 1170px
+      margin: 0 auto
+
+      &:before
+        content: ''
+        position: absolute
+        top: 0
+        left: calc(50% - 1px)
+        height: 100%
+        width: 2px
+        background: $primary-color
+        @include MQ(ML)
+          left: 20px
+          margin-left: 0px
+
+        @include MQ(SM)
+          left: 10px
+
+
+      .timeline-block
+        position: relative
+        transition: all 0.3s ease
+        margin: 1em 0
+        display: flex
+
+        &:first-child
+          margin-top: 0
+
+        &:last-child
+          margin-bottom: 0
+
+        &:nth-child(odd)
+          @include MQ(L)
+            margin-top: 0
+            margin-bottom: 2em
+
+          .timeline-content
+            display: flex
+            flex-direction: column
+            margin-left: -5%
+
+            @include MQ(L)
+              right: 10px
+              margin-left: -8%
+
+            @include MQ(ML)
+              right: auto
+              margin-left: 70px
+
+            @include MQ(SM)
+              margin-left: 50px
+
+            &:before
+              top: 24px
+              left: 100%
+              border-color: transparent
+              border-left-color: $bg-color
+              @include MQ(ML)
+                top: 16px
+                left: auto
+                border-color: transparent
+                border-right-color: $bg-color
+
+
+        &:nth-child(even)
+          flex-direction: row-reverse
+          @include MQ(ML)
+            flex-direction: column
+
+          .date
+            text-align: right
+            left: auto
+            right: 55%
+            @include MQ(ML)
+              text-align: left
+              font-size: 14px
+              color: $light-grey
+              position: relative
+              top: -40px
+              left: 95px
+              right: auto
+
+            @include MQ(SM)
+              left: 66px
+
+
+
+        .timeline-img
+          position: absolute
+          width: 50px
+          height: 50px
+          top: 15px
+          left: 50%
+          margin-left: -25px
+          border-radius: 50%
+          background: #212121
+          transform: translateZ(0)
+          backface-visibility: hidden
+          transition: all 0.3s ease
+          @include MQ(ML)
+            top: 5px
+            left: 20px
+
+          @include MQ(SM)
+            width: 40px
+            height: 40px
+            top: 10px
+            left: 15px
+
+          .sprite
+            display: block
+            width: 24px
+            height: 24px
+            position: relative
+            left: 50%
+            top: 50%
+            margin-left: -12px
+            margin-top: -12px
+            background-repeat: no-repeat
+            background-size: 100%
+            @include MQ(SM)
+              width: 20px
+              height: 20px
+              margin-left: -10px
+              margin-top: -10px
+
+            &.university
+              background-image: url('../img/icons/graduate-cap.png')
+
+            &.research
+              background-image: url('../img/icons/search.png')
+
+            &.industry
+              background-image: url('../img/icons/briefcase.png')
+
+            &.academic
+              background-image: url('../img/icons/notebook.png')
+
+
+
+        .timeline-content
+          position: relative
+          background: $bg-color
+          border-radius: 3px
+          margin-right: -5%
+          padding: 1.5em
+          width: 45%
+          opacity: 0.75
+          transition: all 0.3s ease
+          @include MQ(L)
+            left: 0px
+            padding-bottom: 2.5em
+            margin-right: -8%
+
+          @include MQ(ML)
+            margin-left: 70px
+            right: auto
+            width: auto
+
+          @include MQ(SM)
+            margin-left: 50px
+            padding: 1.5em 1em 2.5em
+
+          &:hover, &:focus
+            opacity: 1
+            + .timeline-img
+              background: $primary-color
+
+
+          &:before
+            content: ''
+            position: absolute
+            top: 24px
+            right: 100%
+            height: 0
+            width: 0
+            border: 15px solid transparent
+            border-color: transparent
+            border-right-color: $bg-color
+            @include MQ(ML)
+              top: 16px
+              right: 100%
+              left: auto
+              border: 15px solid transparent
+              border-right: 15px solid $bg-color
+
+
+          &:after
+            content: ""
+            display: table
+            clear: both
+
+          h2
+            margin: 5px 0 10px
+            font-size: 18px
+            display: inline-block
+
+          h3
+            margin: 0 0 10px 0
+            font-size: 1em
+            a
+              color: $accent-color
+              display: inline
+              transition: all 0.3s ease
+
+              &:hover, &:focus
+                color: $primary-color
+          p
+            margin: 1em 0
+
+
+
+        .date
+          font-weight: 500
+          display: inline-block
+          text-transform: uppercase
+          position: absolute
+          width: 100%
+          left: 55%
+          top: 30px
+          @include MQ(ML)
+            font-size: 14px
+            color: $light-grey
+            position: absolute
+            top: auto
+            bottom: 20px
+            left: 95px
+
+          @include MQ(SM)
+            left: 66px
+
+  .down-arrow
+    display: block
+    margin: 0 auto
+    border-color: transparent
+    border-top-color: $primary-color
+    border-style: solid
+    border-width: 15px 7px 0
+    width: 0
+    height: 0
+    position: relative
+    line-height: 0
+    @include MQ(ML)
+      margin-left: 13.5px
+
+    @include MQ(SM)
+      margin-left: 3.5px

@@ -1,0 +1,111 @@
+section.contact
+  background: url('../img/bg-contact/contact-md.jpg')
+    size: cover
+
+  .description
+    margin: 0 auto
+    max-width: 440px
+    font-size: 1.2em
+    @include MQ(L)
+      padding: 10px
+      font-size: 1em
+
+  .form-wrapper
+    width: 500px
+    margin: 20px auto
+    padding: 0
+    @include MQ(S600)
+      width: 90%
+
+    @include MQ(S400)
+      width: 95%
+
+    .input-wrapper
+      padding: 0
+      margin-bottom: 10px
+      position: relative
+      transition: all 0.25s ease
+      @include MQ(M)
+        margin-bottom: 10px
+
+      @include MQ(SM)
+        margin-bottom: 5px
+
+      &:before
+        content: ""
+        position: absolute
+        display: block
+        width: 100%
+        height: 2px
+        background-color: $light-grey
+        bottom: 0
+        left: 0
+        transition: all 0.5s ease-in-out
+
+      &:after
+        background-color: $primary-color
+        content: ""
+        position: absolute
+        display: block
+        width: 0px
+        height: 2px
+        bottom: 0
+        left: 0
+        transition: all 0.5s ease-in-out
+
+      .input-label
+        display: block
+        font-size: 0.9em
+        font-weight: 700
+        text-transform: uppercase
+        transform: translateY(25px)
+        margin-bottom: 10px
+        transition: all 0.5s ease-in-out
+
+      .contact-input
+        position: relative
+        background: transparent
+        width: 100%
+        border: none
+        padding: 20px 0 10px
+        margin-bottom: -10px
+        font-size: 1em
+        line-height: 1.2
+        color: $white
+        resize: none
+        display: block
+        overflow: hidden
+        box-sizing: padding-box
+        transition: all 0.25s ease
+        &:focus
+          outline: 0
+          color: $white
+        &:invalid
+          box-shadow: none
+
+      .autoExpand
+        margin-bottom: -10px
+        overflow: none
+
+    .is-active,
+    .is-completed
+      padding: 15px 0 0 0
+
+    .is-active:after
+      width: 100%
+
+    .is-active .input-label
+      color: $primary-color
+
+    .is-completed .input-label
+      font-size: 0.75em
+      font-weight: 500
+      transform: translateY(0)
+      padding: 0
+
+    .is-completed .contact-input
+      padding-top: 10px
+
+    .main-btn
+      margin: 70px auto 0
+      text-align: center

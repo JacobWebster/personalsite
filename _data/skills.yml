@@ -1,0 +1,35 @@
+development:
+  - item: JavaScript
+  - item: HTML5
+  - item: CSS3
+  - item: Sass
+  - item: Jekyll
+  - item: jQuery
+  - item: .net
+  - item: C#
+
+software:
+  - item: adobe-photoshop
+  - item: adobe-indesign
+  - item: adobe-illustrator
+  - item: adobe-dreamweaver
+  - item: atom
+  - item: visual-studio
+
+tools:
+  - item: Git + Github
+  - item: Command Line
+  - item: Chrome DevTools
+  - item: Gulp
+  - item: Node.js
+  - item: Bootstrap
+
+
+knowledge:
+  - item: CSS Detangling
+  - item: CMS
+  - item: UI/UX Design
+  - item: SEO
+  - item: Concept Development
+  - item: Art Direction
+  - item: Social Media Marketing

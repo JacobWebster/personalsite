@@ -1,0 +1,26 @@
+nav.dot-nav
+  ul
+    |{% for item in site.data.navigation %}
+    li.dot-container
+      a(href="#{{item.section}}" data-number="{{item.number}}")
+        span.dot
+        span.dot-label {{item.title}}
+    |{% endfor %}
+    
+.container#toggle
+  span.line.top
+  span.line.middle
+  span.line.bottom
+    
+.overlay#overlay
+  .logo
+    img(src="assets/img/logo-white.png" alt="logo")
+    span Jacob Webster
+    
+  nav.overlay-menu
+    ul.menu-container
+      |{% for item in site.data.navigation %}
+      li.menu-item
+        a(href="#{{item.section}}") {{item.title}}
+      |{% endfor %}
+      

@@ -1,0 +1,34 @@
+- position: Bachelor of Science in Graphic Design
+  company: The Art Institute Of Pittsburgh
+  url: https://www.artinstitutes.edu/pittsburgh/academics/visual-design/graphic-web-design-degree-programs
+  description: Emphasis on print design, design theory, concept building, HTML development. Additional coursework in collateral design, package design, corporate branding, photography, and illustration techniques.
+  sprite: university
+  date: 2001 - June 2004
+
+- position: Freelance Graphic Illustrator
+  company: Semantic Compaction Systems
+  url: http://www.minspeak.com
+  description: Created over a hundred digital illustrations and icons for application programs.
+  sprite: academic
+  date: June - October 2004
+
+- position: Graphic Designer
+  company: Stonewall Marketing Group
+  url: http://stonewallgroup.com/
+  description: Created professional, award winning marketing campaigns for various companies in the financial, healthcare and tourism sectors. In addition, worked on-site with print vendors press runs and oversaw quality control. Collaborated closely with other designers to meet strict deadlines for clients including Peoples Bank, St. Josephs Hospital, Simonton Window, Suddenlink Communications, and more.
+  sprite: industry
+  date: 2004 - March 2007
+
+- position: Art Director - Senior Graphic Designer
+  company: PM Systems Corporation (Acquired by Fiserv 2016)
+  url: https://www.fiserv.com/index.aspx
+  description: Successfully manage and coordinate graphic design projects from concept through completion. Work closely with clients to create a vision, conceive designs, and consistently meet deadlines and requirements. Conducted a lucrative marketing campaign, which led to a rapid increase in the number of customers.
+  sprite: industry
+  date: 2007 - Present
+
+- position: Front-End Developer
+  company: Fiserv
+  url: https://www.fiserv.com/index.aspx
+  description: Tasked to develop a fully functional responsive websites into a .net based CMS for end-user customization.<p>Improved the efficiency of the CMS by retooling many of the C# components into simpler forms. As a result, many of the websites now load 20% faster with improved custom options that can be controlled through CSS. The end product made it possible to create the very first W3C standard site in the company.</p><p>Developed a front-end framework to the flagship platform by CSS restructuring and the interjection of unique variables to create a fully working custom user interface within 40 hours.</p>
+  sprite: industry
+  date: 2010 - Present

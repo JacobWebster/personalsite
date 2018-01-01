@@ -1,0 +1,42 @@
+section.skills#skills
+  .section-wrapper
+    .fade-in
+      h1 Skills
+      span.divider
+        
+      .skills-wrapper
+        .skills-row
+          .col-1
+            .skills-column.dev-wrap
+              .sprite.dev
+              h2 Development
+              ul.dev-list
+                |{% for dev in site.data.skills.development %}
+                li.dev-item {{dev.item}}
+                |{% endfor %}
+          
+          .col-1
+            .skills-column.soft-wrap
+              .sprite.software
+              h2 Software
+              ul.soft-list
+                |{% for software in site.data.skills.software %}
+                li.soft-item
+                  img.item-img(src="/assets/img/icons/{{software.item}}.png" alt="{{software.item}}")
+                |{% endfor %}
+          
+            .skills-column
+              .list-wrap
+                .sprite.tools
+                h2 Tools
+                ul.list
+                  |{% for tools in site.data.skills.tools %}
+                  li.list-item {{tools.item}}
+                  |{% endfor %}
+              .list-wrap
+                .sprite.knowledge
+                h2 Knowledge
+                ul.list
+                  |{% for knowledge in site.data.skills.knowledge %}
+                  li.list-item {{knowledge.item}}
+                  |{% endfor %}

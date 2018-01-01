@@ -1,0 +1,12 @@
+section.footer#footer
+  .section-wrapper
+    .center
+      ul.soc
+        |{% for link in site.social %}
+        li.soc-item
+          a.icon(class="{{link.title}}" href="{{link.url}}" target="_blank" title="{{link.title}}")
+            object
+             img(src="assets/img/icons/{{link.title}}.svg" alt="{{link.title}}")
+        |{% endfor %}
+      p &copy;&nbsp;&nbsp;{{site.name}} {{ site.time | date: '%Y' }}
+      

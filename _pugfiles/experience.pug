@@ -1,0 +1,23 @@
+section.experience#experience
+  .overlay-wrapper
+    .fade-in
+      .center
+          h1 Experience
+          span.divider.center
+            
+      .experience-wrapper
+        .timeline
+          |{% for item in site.data.timeline %}
+          .timeline-block
+            .timeline-content
+              h2 {{item.position}}
+              h3
+                a(href="{{item.url}}" target="_blank") {{item.company}}
+              p {{item.description}}
+            .timeline-img
+              .sprite(class="{{item.sprite}}")
+            span.date {{item.date}}
+          |{% endfor %}
+        i.down-arrow
+          
+        

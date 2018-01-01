@@ -1,0 +1,39 @@
+{
+  "name": "pug-jekyll-browser-sync",
+  "version": "0.0.0",
+  "description": "A starter project including full setup for Jekyll, GulpJS, Pug, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob Webster",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "eslint": "^4.9.0",
+    "eslint-config-starry": "^7.0.0",
+    "eslint-plugin-starry": "^5.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "pug",
+    "browsersync"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JacobWebster/jekyll-pug-gulp-sass-browser-sync"
+  },
+  "homepage": "https://github.com/JacobWebster/jekyll-pug-gulp-sass-browser-sync"
+}

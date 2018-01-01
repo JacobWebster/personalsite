@@ -1,0 +1,36 @@
+# Site settings
+name: Jacob Webster
+title: Jacob Webster | Designer & Front End Developer
+description: Web Development Portfolio of Jacob Webster. Based in Columbia, SC. Offering valid and semantic HTML5, CSS3, and responsive coding.
+url: http://jacobwebster.com
+baseurl: ""
+cover: /assets/img/og.png
+email: jacob.webster@gmail.com
+resume: /assets/pdf/resume.pdf
+logo: /assets/img/logo-black.png
+social:
+  - title: email
+    url: mailto:jacob.webster@gmail.com
+  - title: github
+    url: https://github.com/JacobWebster
+  - title: linkedin
+    url: https://www.linkedin.com/in/jacobwebster
+  - title: store
+    url: http://geekyflasks.com
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"

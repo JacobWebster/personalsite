@@ -1,0 +1,24 @@
+section
+  width: 100%
+  height: auto
+  min-height: 700px
+  padding: 0
+  overflow: hidden
+  color: $white
+  position: relative
+
+  .fade-in
+    display: none
+
+  .overlay-wrapper,
+  .section-wrapper
+    padding: 100px
+    min-height: 700px
+    @include MQ(MM)
+      padding: 100px 50px
+
+    @include MQ(S400)
+      padding: 100px 25px
+
+  .overlay-wrapper
+    background: linear-gradient(to bottom, rgba(0, 0, 0, $overlayOpacity), rgba(0, 0, 0, $overlayOpacity), rgba(0, 0, 0, $overlayOpacity), rgba(0, 0, 0, $overlayOpacity), rgba(0, 0, 0, $overlayOpacity))

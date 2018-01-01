@@ -1,0 +1,186 @@
+- title: Columbia Zombies
+  subtitle: Branding & Product Design
+  modal-id: 1
+  sprite: zombies
+  images:
+    - img: zombies1.jpg
+    - img: zombies-jersey.jpg
+    - img: zombies-shoulder.jpg
+    - img: zombie3.jpg
+
+  demo: http://www.204customs.com/2011/06/puckdrawn-contest-runner-up/
+  git:
+  store: https://www.geekyjerseys.com/
+  used:
+  - thing: Adobe Illustrator
+  - thing: Adobe Photoshop
+
+  description: >
+    A logo concept I did for a hockey logo contest on puckdrawn.  I ended up taking second place but the design was so popular I teamed up with geekyjerseys to help mass produce the jerseys.
+
+- title: Dough Momma's Cake Pops
+  subtitle: Branding & Logo Design
+  modal-id: 2
+  sprite: dough
+  images:
+    - img: dough1.jpg
+    - img: dough2.jpg
+    - img: website.jpg
+  demo: https://twitter.com/doughmommas
+  git:
+  store:
+  used:
+  - thing: Adobe Illustrator
+  - thing: Adobe Photoshop
+
+  description: >
+    Dough Momma's is a small local bakery with a vision to represent themselves as fun caring bakers with a passion to create fun exciting colorful cakes for children's parties
+
+- title: Winnipeg Jets
+  subtitle: Branding & Product Design
+  modal-id: 3
+  sprite: winnipegjets
+  images:
+    - img: winnipeg-jets.jpg
+    - img: jets-jerseys.jpg
+    - img: jets-bomb.jpg
+
+  demo: https://sports.yahoo.com/nhl/blog/puck_daddy/post/our-five-favorite-winnipeg-jets-jersey-design-concepts?urn=nhl,wp9519
+  git:
+  store:
+  used:
+  - thing: Adobe Illustrator
+  - thing: Adobe Photoshop
+
+  description: >
+      This logo is a modern take on the original Winnipeg Jets logo from the early 1970's. I submitted it to a contest on puckdrawn.com resulting in first place finish. When Winnipeg officially got their team back, my logo was thought to be the new leaked logo. This design was also featured on yahoo.com's front page as best fan-made Winnipeg Jet logo.
+
+- title: Banking Theme Creator
+  subtitle: Online Banking Demo Theme
+  modal-id: 4
+  sprite: gotham
+  images:
+    - img: gotham-demo.png
+    - img: ipad.jpg
+    - img: compare.jpg
+    - img: respond.png
+
+  demo: https://www.fiserv.com/index.aspx
+  git:
+  store:
+  used:
+  - thing: HTML5
+  - thing: CSS3
+  - thing: Jquery
+  - thing: Adobe Illustrator
+
+  description: >
+    This robust system was coded to generate multiple online banking themes within 40 hours. I took the existing framework and detangled the CSS making it so everything could be changed by using variables.  The current framework in place was very complex, anitiquated and didnt offer the kinda of customization options that the customers were needing. My system pushed the framework to the limits (Gotham theme is shown) and provided a solution that the clients were asking for.
+
+
+- title: NW Preferred Credit Union
+  subtitle: Marketing and Banking Websites
+  modal-id: 5
+  sprite: nwpreferred
+  images:
+    - img: nwpreferred-home.png
+    - img: nwpreferred-tablet.jpg
+    - img: nw-respond.png
+
+  demo: https://mycreditunion.com/
+  git:
+  store:
+  used:
+  - thing: .Net
+  - thing: CSS3
+  - thing: C#
+  - thing: Jquery
+  - thing: HTML5
+
+  description: >
+    A simple responsive banking site I developed into our in-house CMS so the client can make edits. Also for this project, I restructured the C# so the navigation was more streamlined then what was generated and it is the first site that follows complete W3C standards.
+
+- title: Mobile Banking UI Themes
+  subtitle: Marketing and Banking Websites
+  modal-id: 6
+  sprite: mobile
+  images:
+    - img: mobile-ui.png
+    - img: mobile-ui2.png
+
+  demo:
+  git:
+  store:
+  used:
+  - thing: .Net
+  - thing: CSS3
+  - thing: C#
+  - thing: Jquery
+  - thing: HTML5
+
+  description: >
+    Themes I designed for a mobile banking application. The multiple designs where created so the client could have multiple quick design choices that were easily modifiable to fit the clients branding structure.
+
+
+- title: Meriwest Credit Union
+  subtitle: Marketing and Banking Websites
+  modal-id: 7
+  sprite: meriwest
+  images:
+    - img: meriwest-home.png
+    - img: meriwest-tablet.png
+    - img: meriwest-sample.png
+
+  demo: https://www.meriwest.com/
+  git:
+  store:
+  used:
+  - thing: .Net
+  - thing: CSS3
+  - thing: C#
+  - thing: Jquery
+  - thing: HTML5
+
+  description: >
+    I designed and helped co-developed this site with another developer.  I created the mock ups in Illustrator and coded the responsive html/css framework to hand over to the developer to be placed into a CMS.
+
+- title: APL Federal Credit Union
+  subtitle: Marketing and Banking Websites
+  modal-id: 8
+  sprite: apl
+  images:
+    - img: apl-home.png
+    - img: apl-tablet.png
+    - img: apl-mobile.png
+
+  demo: https://www.aplfcu.org/
+  git:
+  store:
+  used:
+  - thing: .Net
+  - thing: C#
+  - thing: Jquery
+  - thing: Bootstrap
+  - thing: Illustrator
+
+  description: >
+    I designed and helped co-developed this site with another developer.  I created the mock ups in Illustrator and coded the responsive html/css framework to hand over to the developer to be placed into a CMS.
+
+- title: Winnipeg Jets v2.0
+  subtitle: Nhl Branding
+  modal-id: 9
+  sprite: jets2
+  images:
+    - img: winnipeg-jets2.png
+    - img: jets-wrodmark.png
+    - img: jets-Jersey2.jpg
+
+  demo: https://www.hiretheworld.com/logo-design/contests/winnipeg-jets-logo-design-contest/ekajmada/entry/32788/
+  git:
+  store:
+  used:
+  - thing: Adobe Illustrator
+  - thing: Adobe Photoshop
+
+  description: >
+    Another logo for the Winnipeg Jets that I created after the official one was poorly received. Was entered in two contest and won first place in both.

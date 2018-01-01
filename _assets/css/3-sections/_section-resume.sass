@@ -1,0 +1,50 @@
+section.resume
+  display: block
+  width: 100%
+  min-height: 100px
+  overflow: hidden
+  color: $white
+  position: relative
+  font-size: 1em
+  font-weight: 700
+  text-transform: uppercase
+  text-align: center
+  letter-spacing: 1px
+  background: $accent-color
+  cursor: pointer
+  transition: background-color 0.5s linear
+  &:hover, &:focus
+    background: $primary-color
+    transition: all 0.3s ease
+
+    span
+      opacity: 0
+      visibility: hidden
+      transform: translate3D(0, 4em, 0) scale(.25)
+
+    img
+      opacity: 1
+      visibility: visible
+      transform: translate3D(0, 0, 0) scale(1)
+
+  span, img
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    text-align: center
+
+  span
+    margin: 40px auto
+    opacity: 1
+    visibility: visible
+    transition: transform .4s cubic-bezier(.425, -.195, .005, 1.215), opacity .13333s linear
+    transform: scale(1)
+
+  img
+    width: 50px
+    margin: 25px auto
+    opacity: 0
+    visibility: hidden
+    transition: transform .4s cubic-bezier(.425, -.195, .005, 1.215), opacity .4s linear
+    transform: translate3D(0, -4em, 0) scale(0)

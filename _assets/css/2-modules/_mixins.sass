@@ -1,0 +1,10 @@
+// define different reveal animations
+=reveal($animation, $value)
+  @include keyframes($animation)
+    0%
+      opacity: 1
+      transform: translateY($value)
+
+    100%
+      opacity: 1
+      transform: translateY(0)

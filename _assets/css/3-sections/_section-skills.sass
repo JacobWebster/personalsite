@@ -1,0 +1,178 @@
+section.skills
+
+
+  .skills-wrapper
+    width: 100%
+    margin: 0 auto
+    padding: 0px
+    display: flex
+
+    .skills-row
+      padding: 20px
+      display: flex
+      justify-content: space-between
+
+      @include MQ(ML)
+        padding: 10px
+
+      @include MQ(M)
+        display: block
+
+      @include MQ(SM)
+        padding: 0px
+
+      .col-1
+        &:nth-child(1)
+          width: 60%
+          min-height: 450px
+
+          @include MQ(M)
+            width: 100%
+            min-height: 50px
+            margin-bottom: 5%
+
+          @include MQ(S660)
+            margin-bottom: 10%
+
+
+
+        &:nth-child(2)
+          width: 55%
+          flex-flow: column
+          @include MQ(ML)
+            width: 70%
+          @include MQ(M)
+            width: 100%
+
+
+          .skills-column
+            &:nth-child(1)
+              width: 100%
+              min-height: 150px
+              @include MQ(M)
+                margin-bottom: 5%
+                min-height: 50px
+              @include MQ(S660)
+                margin-bottom: 10%
+
+            &:nth-child(2)
+              min-height: 299px
+              display: flex
+              justify-content: space-between
+
+              @include MQ(S660)
+                display: block
+                min-height: 50px
+                .list-wrap
+                  margin-bottom: 10%
+
+
+
+        h2
+          font-size: 1.5vw
+          @include MQ(ML)
+            font-size: 2vw
+
+          @include MQ(M)
+            font-size: 3vw
+          @include MQ(S660)
+            font-size: 4vw
+          @include MQ(SM)
+            font-size: 5vw
+
+        .sprite
+          width: 35px
+          height: 35px
+          margin-right: 15px
+          display: inline-block
+          vertical-align: middle
+          position: relative
+          top: -3px
+          background-repeat: no-repeat
+          background-position: center center
+          background-size: 100%
+          &.dev
+            background-image: url('../img/icons/settings.png')
+
+          &.software
+            background-image: url('../img/icons/design.png')
+            background-size: 90%
+
+          &.tools
+            background-image: url('../img/icons/repair-tools.png')
+            background-size: 90%
+
+          &.knowledge
+            background-image: url('../img/icons/light-bulb.png')
+
+      .dev-list
+        display: block
+        margin-right: 50px
+        @include MQ(ML)
+          margin-right: 5%
+        @include MQ(M)
+          margin-right: 0
+        .dev-item
+          display: inline-block
+          border: 2px solid rgba(57,57,57,.5)
+          border-radius: 50%
+          text-align: center
+          margin: 10px 10px 10px 0
+          padding: 0px
+          width: 100px
+          height: 100px
+          line-height: 7
+          font-size: 0.9em
+
+          @include MQ(ML)
+            width: 80px
+            height: 80px
+            font-size: 0.8em
+            line-height: 6.5
+            margin: 5px 5px 5px 0
+
+          @include MQ(M)
+            margin: 15px 15px 15px 0
+
+          @include MQ(SM)
+            width: 90px
+            height: 90px
+            margin: 1%
+            font-size: 0.9em
+            line-height: 7
+          @include MQ(S440)
+            width: 80px
+            height: 80px
+            font-size: 0.8em
+            line-height: 6.5
+
+      .soft-list
+        display: block
+        .soft-item
+          display: inline-block
+          margin: 10px
+          @include MQ(L)
+            margin: 10px 5px
+
+        .item-img
+          height: 40px
+          filter: grayscale(100%)
+
+      .list
+        display: block
+        position: relative
+        margin-left: 15px
+
+        .list-item
+          margin: 5px 0
+          font-size: 0.9em
+          padding-left: 20px
+          &::before
+            content: ""
+            background:  url('../img/icons/checkmark.svg')
+                size: 12px, 12px
+            width: 12px
+            height: 12px
+            position: absolute
+            margin-top: 5px
+            left: 0
