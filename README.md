@@ -13,6 +13,7 @@ Hello! Thanks for checking out the repo for my latest portfolio website. This we
 - [atom](https://atom.io) my text editor of choice
 - [Github Pages](https://pages.github.com/) for easy push-to-deploy hosting
 - [Jekyll](https://jekyllrb.com/) for a static site generator
+- [Pug](https://pugjs.org/) for clean time-consuming HTML rendering
 - [Sass](http://sass-lang.com/) for less time-consuming and more modular CSS
 - [Bourbon](http://bourbon.io/) for sass mixins
 - [Gulp](http://gulpjs.com/) for an automated and enhanced workflow
