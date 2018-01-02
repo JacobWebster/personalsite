@@ -2,8 +2,8 @@
 name: Jacob Webster
 title: Jacob Webster | Designer & Front End Developer
 description: Web Development Portfolio of Jacob Webster. Based in Columbia, SC. Offering valid and semantic HTML5, CSS3, and responsive coding.
-url: https://jacobwebster.github.io
-baseurl: "/personalsite"
+url: https://jacobwebster.com
+baseurl: ""
 cover: /assets/img/og.png
 email: jacob.webster@gmail.com
 resume: /assets/pdf/resume.pdf
