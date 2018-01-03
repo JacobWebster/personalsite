@@ -29,6 +29,11 @@
 - position: Front-End Developer
   company: Fiserv
   url: https://www.fiserv.com/index.aspx
-  description: Tasked to develop a fully functional responsive websites into a .net based CMS for end-user customization.<p>Improved the efficiency of the CMS by retooling many of the C# components into simpler forms. As a result, many of the websites now load 20% faster with improved custom options that can be controlled through CSS. The end product made it possible to create the very first W3C standard site in the company.</p><p>Developed a front-end framework to the flagship platform by CSS restructuring and the interjection of unique variables to create a fully working custom user interface within 40 hours.</p>
+  description: >
+    Tasked to develop a fully functional responsive websites into a .net based CMS for end-user customization.
+
+    Improved the efficiency of the CMS by retooling many of the C# components into simpler forms. As a result, many of the websites now load 20% faster with improved custom options that can be controlled through CSS. The end product made it possible to create the very first W3C standard site in the company.
+
+    Developed a front-end framework to the flagship platform by CSS restructuring and the interjection of unique variables to create a fully working custom user interface within 40 hours.
   sprite: industry
   date: 2010 - Present
